@@ -1,0 +1,14 @@
+#include <stdio.h> 
+
+int main() {
+  float d, *pd;
+
+  d=54.5;
+  pd = &d;
+
+  printf("%f\n", d);
+
+  *pd = *pd+10;
+
+  printf("%g\n", d);
+}
